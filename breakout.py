@@ -155,7 +155,7 @@ def main(stdscr):
             draw_paddle(board, paddle_x)
 
         # Delay to control game speed
-        time.sleep(0.3)  # Increase delay to slow down the game
+        time.sleep(0.1)  # Increase delay to slow down the game
 
 if __name__ == '__main__':
     curses.wrapper(main)
